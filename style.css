@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url("Images/clear.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size:cover;
+    overflow:hidden;
+}
+
+.main-container{
+    width:50vh;
+    margin:100px auto;
+    background-color: rgba(240,248,255,0.6);
+    padding:20px;
+    text-align:center;
+    border-radius: 15px;
+
+}
+
+.main-container > * {
+    margin-bottom:30px;
+}
+.input-box{
+    width:100%;
+    background-color: rgba(255,255,255,0.6);
+    opacity:0.6;
+    border:none;
+    outline:none;
+    font-size: 1.6rem;
+    font-weight:bold;
+    color:black;
+    height:50px;
+    border-radius:10px;
+    padding:0px 15px;
+    text-align: center;
+}
+.input-box::placeholder{
+    color:grey;
+}
+.input-box:focus{
+    background-color:rgba(255,255,255);
+}
+
+.weather-body{
+    background-color:rgb(226, 226, 226);
+    opacity:0.7;
+    padding:20px;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    font-weight:bold;
+    border-radius: 10px;
+    color:black;
+    height:50vh;
+}
+
+.location-details{
+    font-weight:bolder;
+    font-size: 1.2rem;
+}
+
+.weather-status{
+    padding:20px;
+}
+
+.temperature{
+    font-size:50pt;
+    text-shadow: 8px 6px 10px black;
+    margin:15px;
+}
+.min-max , .weather{
+    font-size:15pt;
+}
